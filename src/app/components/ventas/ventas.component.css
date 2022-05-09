@@ -1,0 +1,14 @@
+.conatiner-fluid {
+  background-color: white;
+  padding: 0.5rem;
+  height: 100vh;
+}
+.panel-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.table i{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
