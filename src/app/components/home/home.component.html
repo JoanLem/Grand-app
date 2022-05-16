@@ -1,0 +1,9 @@
+<li *ngFor="let h of heroes" 
+[class.selected]="heroes === select"
+(click)="onSelect(h)">{{ h.id }} - {{ h.name }}</li>
+<div *ngIf='select'>
+    <h1>
+      <p>{{ select.id }}</p>
+    <input type="text" [(ngModel)]="select.name" placeholder="name" />
+</h1>
+</div>
